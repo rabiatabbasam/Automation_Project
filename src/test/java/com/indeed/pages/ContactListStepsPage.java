@@ -36,6 +36,59 @@ public ContactListStepsPage(){
 
 
 
+    @FindBy(xpath = "//*[@class=\"bx-finder-box-tab bx-lm-tab-department\"]")
+    public WebElement addMultipleContactsButton;
+
+    @FindBy(xpath="//*[@class=\"bx-finder-company-department-employee-name\"]")
+    public WebElement addMoreContacts;
+
+    @FindBy(xpath = "//*[.='helpdesk22@cybertekschool.com']")
+    public WebElement addContacts;
+
+    @FindBy(xpath = "//*[@class='popup-window-close-icon']")
+    public WebElement closeButton;
+
+//    @FindBy(xpath = "//*[.=\"INSTRUCTORS DEPARTMENT\"]")
+  //  public WebElement addDepartments;
+
+    //@FindBy(xpath = "//*[@class='bx-finder-company-department-check-arrow']")
+    //public WebElement addSubDepartments;
+
+    @FindBy(xpath = "//*[.='Add question']")
+    public WebElement addQuestionButton;
+
+    @FindBy(xpath ="//*[@id='question_0']")
+    public WebElement deleteQuestion;
+
+    @FindBy(xpath ="(//*[@title='Delete question'])[1]" )
+    public WebElement deleteButton;
+
+
+
+    @FindBy(xpath = "//label[@class='vote-checkbox-label']")
+    public WebElement allowMultipleChoiceButton;
+
+    @FindBy(xpath = "//*[@id=\"feed-add-post-destination-item\"]/span/span[1]")
+    public WebElement deleteAllEmployees;
+
+    @FindBy(xpath = "//*[@id='blog-submit-button-save']")
+            public WebElement sendButton;
+
+        @FindBy(xpath = "//*[@class='vote-block-title adda']")
+         public WebElement questionText;
+
+    @FindBy(xpath = "//*[@id=\"feed-add-post-form-notice-blockblogPostForm\"]/div/span[2]")
+    public WebElement errorPerson;
+
+    @FindBy(xpath = "//*[@id=\"feed-add-post-form-notice-blockblogPostForm\"]/div/span[2]")
+    public WebElement errorMessageTitle;
+
+    @FindBy(xpath = "//*[@id=\"feed-add-post-form-notice-blockblogPostForm\"]/div/span[2]")
+    public WebElement errorQuestion;
+
+
+
+
 
 
 }
